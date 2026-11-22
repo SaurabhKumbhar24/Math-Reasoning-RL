@@ -15,6 +15,12 @@ Evaluated on the full GSM8K test set (1,319 problems), using greedy decoding. Th
 
 **Best result: 79.9% accuracy, +23.2 points over the base model at the same 1024-token budget, from 100 GRPO steps that saw only 400 training questions (about 5% of one epoch).**
 
+**Trained model (Run 2):** [Huggyb/qwen3-1.7b-grpo-gsm8k](https://huggingface.co/Huggyb/qwen3-1.7b-grpo-gsm8k) on the Hugging Face Hub. To evaluate it directly:
+
+```bash
+python evaluate.py Huggyb/qwen3-1.7b-grpo-gsm8k
+```
+
 ## Key findings
 
 1. **GRPO adds +23.2 points** of accuracy over the base model when the token budget is held fixed at 1024.
