@@ -1,0 +1,6 @@
+datasets
+trl
+torch
+tensorboard
+transformers
+accelerate

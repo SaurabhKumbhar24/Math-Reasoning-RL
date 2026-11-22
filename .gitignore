@@ -1,0 +1,15 @@
+# Environment
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Data and model outputs (large, not versioned)
+data/
+outputs/
+outputs_run2/
+*.safetensors
+*.bin
+*.pt
+
+# Local TensorBoard screenshots
+tensorboard/
